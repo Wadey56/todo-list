@@ -51,6 +51,16 @@ deign first, code later! i will be using Figma for this approach
 
 ## reflection
 
+as per my project notes i made a quick design on figma  
+this will made producing my css much easier as i already have the visualisation
+
+before writting any code i have spent a lot of (too much) time on point 1. of the project  
+i have had to refresh myself on object constructors, factory functions and classes  
+my general take aways from research were factory functions or classes are generally prefered  
+i have been conflicted but settled on factory functions  
+task objects will be simple objects with options to build features with composition
+we're not scaling to thousands of objects (tasks) being created so performance penalty is not valid
+
 ---
 
 # installation
