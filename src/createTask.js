@@ -1,13 +1,17 @@
-function createTask(title, description, dueDate, priority) {
+// this module is used to create tasks
+
+// factory function for tasks
+function createTask(title, description, dueDate, priority, project = "default") {
+
     return {
         title,
         description,
         dueDate,
-        priority
+        priority,
+        project,
+        // all tasks start as incompleted
+        completed: false,
     }
 }
 
-const test = createTask("test", "test", "test", "test")
-console.log(test)
-
-export { createTask }
+export { createTask };
