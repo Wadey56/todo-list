@@ -52,7 +52,7 @@ deign first, code later! i will be using Figma for this approach
 ## reflection
 
 as per my project notes i made a quick design on figma  
-this will made producing my css much easier as i already have the visualisation
+this will make producing my css much easier as i already have the visualisation
 
 before writting any code i have spent a lot of (too much) time on point 1. of the project  
 i have had to refresh myself on object constructors, factory functions and classes  
@@ -60,6 +60,20 @@ my general take aways from research were factory functions or classes are genera
 i have been conflicted but settled on factory functions  
 task objects will be simple objects with options to build features with composition
 we're not scaling to thousands of objects (tasks) being created so performance penalty is not valid
+
+as i write more code i am finding that testing is difficult  
+since i have been used to building my other projects without webpack i could access everything in console  
+webpack is hiding the variables / methods i want to access  
+i can still use console.log in my index file but i do not get to see the dynamic behaviour  
+there seems to be work arounds for this but none seem as intuative than previous access  
+i will look more into this at the end / when this becomes a problem
+
+my current codebase contains ways to create, delete and edit (mark complete by ext) tasks  
+there is also functionality to create projects (edit and delete to come later)
+i have tested these work via good old console logs on my index.js (not bullet proof, i know)  
+this seems like a good stage to start making some DOM visuals  
+rather than validate inputs at this stage i will force values in via forms  
+once i get to this stage i will revisit direct injection and make the required changes
 
 ---
 
