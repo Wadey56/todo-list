@@ -1,7 +1,7 @@
 // this module is used to create tasks
 
 // factory function for tasks
-function createTask(title, description, dueDate, priority, project = "default") {
+function createTask(title, description, dueDate, priority) {
 
     // generate a random id
     let id = window.crypto.randomUUID();
@@ -12,7 +12,6 @@ function createTask(title, description, dueDate, priority, project = "default") 
         description,
         dueDate,
         priority,
-        project,
         // all tasks start as incompleted
         completed: false,
     }
