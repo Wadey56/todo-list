@@ -2,6 +2,7 @@ import { createTask } from "./createTask.js"
 import { deleteTask } from "./deleteTask.js"
 import { editTask } from "./editTask.js"
 import { createProject } from "./createProject.js";
+import "./globalStyles.css";
 
 // test create
 let task1 = createTask("task 1", "description 1", "2025-01-01", "high");
