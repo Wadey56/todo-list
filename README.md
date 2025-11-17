@@ -75,6 +75,13 @@ this seems like a good stage to start making some DOM visuals
 rather than validate inputs at this stage i will force values in via forms  
 once i get to this stage i will revisit direct injection and make the required changes
 
+my last edits were on 04/11/2025... it is 17/11/2025
+although i have been preoccupied in other duties i always get to this stage and stop / pause
+it always seems to be at the actual design / css stuff
+i do not really enjoy this part nor think that i can design anything appealing yet
+none the less i aim to use the next few days of available time to devlop some more
+i will have to take time to revise what i have done this far
+
 ---
 
 # installation
